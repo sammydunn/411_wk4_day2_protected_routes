@@ -12,7 +12,7 @@ Clone this repo and run `npm i` and then `npm start`
 
 * Write a `checkAuth` function under the approprate comment. Use the `cookie` module to parse the browser cookies and check the `loggedIn` cookie. If it has a value, return `true` otherwise return `false`. 
 
-* Replace all uses of the `Route` component (inside of Switch) with `ProtectedRoute` EXCEPT for the "/login" route. We always want to be able to access that so leave it alone.
+**** Replace all uses of the `Route` component (inside of Switch) with `ProtectedRoute` EXCEPT for the "/login" route. We always want to be able to access that so leave it alone.
 
 * Upon making the change to `ProtectedRoute` you should notice that you can no longer access any of the links in the navigation bar. They send you back to the login page because there is no cookie available. Let's make sure we set one when we log in.
 
